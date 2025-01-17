@@ -10,13 +10,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 #container {
     /* transform: rotate3d(20deg, -5deg, 10deg); */
-    transform: rotateX(50deg) rotateY(-5deg) rotateZ(20deg) translate(-200px, -100px);
+    /* transform: rotateX(50deg) rotateY(-5deg) rotateZ(20deg) translate(-200px, -100px); */
+    transform: scale(0.5);
     display: grid;
-    width: 140rem;
+    width: 80%;
     grid-template-columns: repeat(20, 1fr);
     transition: 0.5s;
 }
